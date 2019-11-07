@@ -1,0 +1,43 @@
+PERTAMA KALI UNTUK CLONE						NB : titik titik diisi nama branch
+									     titik titik dalam tanda kutip diisi komentar
+	git clone ....link....
+
+
+KEDUA KALI UNTUK COMMIT PERTAMA
+
+	git branch ....
+	git git checkout ....
+	git add --all
+	git config --global user.email "....."
+	git config --global user.name "....."
+	git commit -m "....."
+	git push
+	git push --set-upstream origin ....
+	git checkout master
+	git pull
+	git merge ....
+	git push
+	git checkout ....
+	git merge master
+
+CARA MENGGABUNGAN MASTER DENGAN PEKERJAAN KITA
+
+	git checkout master
+	git pull
+	git checkout ....
+	git pull
+	git push
+
+UNTUK COMMIT SELANJUTNYA
+
+	git checkout ....
+	git add --all
+	git pull
+	git commit -m "....."
+	git push
+	git checkout master
+	git pull
+	git merge ....
+	git push
+	git checkout ....
+	git merge master
