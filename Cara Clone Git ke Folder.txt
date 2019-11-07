@@ -1,0 +1,7 @@
+Open Folder --- Pilih Lokasi yang akan di clone ---
+
+Klik Kanan --- Pilih Git Bash Here --- 
+
+Masukan Perintah (( Git Clone masukan Linknya ))
+
+Link di Copy dari Repository Git
